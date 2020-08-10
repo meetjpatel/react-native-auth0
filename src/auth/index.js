@@ -479,6 +479,7 @@ export default class Auth {
     const payload = apply(
       {
         parameters: {
+          name: {required: true},
           email: {required: true},
           password: {required: true},
           connection: {required: true},
